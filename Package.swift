@@ -10,8 +10,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "WG",
-      url: "https://github.com/EbrahimTahernejad/WGApple/releases/download/0.0.2/WG.xcframework.zip",
-      checksum: "e95aecdf9269add4d6ce102ed92f9b5f06f10bc6025fd6f3c935afe7fc8bf7d5"
+      url: "https://github.com/EbrahimTahernejad/WGApple/releases/download/0.0.3/WG.xcframework.zip",
+      checksum: "38fd42bd3dc47dbbe5bb70b011cb1e82becb5978b15b4bebcc0b397c4d38f2fa"
     )
   ]
 )
