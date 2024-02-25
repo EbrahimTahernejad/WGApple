@@ -7,6 +7,10 @@ on:
         description: 'Release version'     
         required: true
         type: string
+      tag:
+        description: 'Git Tag to checkout'
+        required: true
+        type: string
 
 jobs:
   release:
@@ -19,6 +23,7 @@ jobs:
         with:
           repository: EbrahimTahernejad/wireguard-go-wrapper
           path: 'wg'
+          ref: ${{ github.event.inputs.tag }}
           
       - name: Setup Go
         uses: actions/setup-go@v3.5.0
